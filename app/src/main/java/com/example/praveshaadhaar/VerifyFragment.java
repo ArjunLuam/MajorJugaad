@@ -130,10 +130,10 @@ public class VerifyFragment extends Fragment {
         mAuth.signInWithCredential(credential)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                       // Records ratingFragment = new Records();
+//                        RatingFragment ratingFragment = new RatingFragment();
 //                        Bundle bundle = new Bundle();
 //                        bundle.putString("phoneNumber", phoneNumber);
-                        //ratingFragment.setArguments(bundle);
+//                       ratingFragment.setArguments(bundle);
 //                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
 //                        fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 //                        FragmentTransaction transaction = fragmentManager.beginTransaction();

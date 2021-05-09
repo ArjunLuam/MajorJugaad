@@ -20,7 +20,8 @@ public class Home extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction().replace(R.id.container, new Phone()).commit();
         }
         else{
-            startActivity(new Intent(getApplicationContext(),Records.class));
+//            getSupportFragmentManager().beginTransaction().replace(R.id.container, new RatingFragment()).commit();
+            startActivity(new Intent(Home.this,Records.class));
         }
 
     }

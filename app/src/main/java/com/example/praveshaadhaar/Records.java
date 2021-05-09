@@ -28,11 +28,6 @@ public class Records extends AppCompatActivity {
     ProgressDialog dialog;
 
     @Override
-    public void onBackPressed() {
-        finish();
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_records);
